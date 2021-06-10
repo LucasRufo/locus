@@ -1,3 +1,27 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.btn {
+    @apply p-2 bg-indigo-500 transition duration-200 text-white rounded outline-none;
+}
+
+.btn:hover {
+    @apply bg-indigo-600;
+}
+
+.btn:focus {
+    @apply outline-none ring ring-offset-1 ring-indigo-600;
+}
+
+.btn-transparent {
+    @apply p-2 bg-transparent transition duration-200 border border-indigo-500 text-indigo-500 rounded;
+}
+
+.btn-transparent:hover {
+    @apply bg-indigo-500 text-white;
+}
+
+.btn-transparent:focus {
+    @apply outline-none ring ring-offset-1 ring-indigo-600;
+}

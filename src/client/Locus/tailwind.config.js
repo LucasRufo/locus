@@ -1,11 +1,15 @@
 module.exports = {
   purge: {
-    enabled: true,
+    enabled: false,
     content: ['./src/**/*.{html,ts}']
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    fontFamily: {
+      'sans': ['Poppins'],
+    },
+    extend: {
+    },
   },
   variants: {
     extend: {},
