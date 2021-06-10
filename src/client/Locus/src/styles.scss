@@ -3,11 +3,15 @@
 @import 'tailwindcss/utilities';
 
 .btn {
-    @apply p-2 bg-indigo-500 transition duration-200 text-white rounded;
+    @apply p-2 bg-indigo-500 transition duration-200 text-white rounded outline-none;
 }
 
 .btn:hover {
     @apply bg-indigo-600;
+}
+
+.btn:focus {
+    @apply outline-none ring ring-offset-1 ring-indigo-600;
 }
 
 .btn-transparent {
@@ -16,4 +20,8 @@
 
 .btn-transparent:hover {
     @apply bg-indigo-500 text-white;
+}
+
+.btn-transparent:focus {
+    @apply outline-none ring ring-offset-1 ring-indigo-600;
 }
