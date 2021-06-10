@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SaldoComponent } from './dashboard/balance/balance.component';
+import { InvestmentsComponent } from './dashboard/investments/investments.component';
+import { HistoryComponent } from './dashboard/history/history.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { SaldoComponent } from './dashboard/balance/balance.component';
     FooterComponent,
     DashboardComponent,
     SaldoComponent,
+    InvestmentsComponent,
+    HistoryComponent,
   ],
   imports: [
     BrowserModule,
