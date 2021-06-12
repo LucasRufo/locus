@@ -9,6 +9,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SaldoComponent } from './dashboard/balance/balance.component';
 import { InvestmentsComponent } from './dashboard/investments/investments.component';
 import { HistoryComponent } from './dashboard/history/history.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HistoryComponent } from './dashboard/history/history.component';
     SaldoComponent,
     InvestmentsComponent,
     HistoryComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
