@@ -8,7 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SaldoComponent } from './dashboard/balance/balance.component';
 import { InvestmentsComponent } from './dashboard/investments/investments.component';
-import { HistoryComponent } from './dashboard/history/history.component';
+import { HistoricComponent } from './dashboard/historic/historic.component';
 import { HomeComponent } from './home/home.component';
 
 @NgModule({
@@ -19,7 +19,7 @@ import { HomeComponent } from './home/home.component';
     DashboardComponent,
     SaldoComponent,
     InvestmentsComponent,
-    HistoryComponent,
+    HistoricComponent,
     HomeComponent,
   ],
   imports: [
