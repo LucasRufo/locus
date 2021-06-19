@@ -12,15 +12,11 @@
 }
 
 .btn {
-    @apply p-2 bg-indigo-500 transition duration-200 text-white rounded outline-none;
-}
-
-.btn:hover {
-    @apply bg-indigo-600;
+    @apply p-2 transition duration-200 text-white rounded outline-none;
 }
 
 .btn:focus {
-    @apply outline-none ring ring-offset-1 ring-indigo-600;
+    @apply outline-none ring ring-offset-1;
 }
 
 .btn-transparent {
@@ -38,3 +34,12 @@
 .badge {
     @apply px-2 py-1 inline-flex text-sm leading-5 font-semibold rounded-xl;
 }
+
+.input {
+    @apply p-2 mt-2 outline-none shadow-sm rounded w-full bg-gray-100 ring-1 ring-gray-200;
+}
+
+.input:focus {
+    @apply focus:ring-indigo-300 focus:ring-2;
+}
+

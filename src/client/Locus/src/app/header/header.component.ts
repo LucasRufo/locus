@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { SigninComponent } from '../signin/signin.component';
+import { SignupComponent } from '../signup/signup.component';
 
 @Component({
   selector: 'app-header',
@@ -17,11 +18,11 @@ export class HeaderComponent implements OnInit {
   }
 
   openModalSignIn() {
-    this.dialog.open(SigninComponent)
+    this.dialog.open(SigninComponent);
   }
 
   openModalSignUp() {
-
+    this.dialog.open(SignupComponent);
   }
 
 }
