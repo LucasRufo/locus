@@ -1,0 +1,7 @@
+.card {
+    @apply w-8/12 h-24 p-6 flex flex-row items-center justify-between bg-white rounded-lg;
+}
+
+.circle {
+    @apply absolute w-96 h-96 rounded-full mix-blend-color-burn filter blur-xl opacity-70;
+}

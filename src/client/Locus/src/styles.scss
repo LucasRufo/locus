@@ -2,6 +2,15 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@layer utilities {
+    .animation-delay-2000 {
+        animation-delay: 2s;
+    }
+    .animation-delay-4000 {
+        animation-delay: 4s;
+    }
+}
+
 .btn {
     @apply p-2 bg-indigo-500 transition duration-200 text-white rounded outline-none;
 }
@@ -24,4 +33,8 @@
 
 .btn-transparent:focus {
     @apply outline-none ring ring-offset-1 ring-indigo-600;
+}
+
+.badge {
+    @apply px-2 py-1 inline-flex text-sm leading-5 font-semibold rounded-xl;
 }
