@@ -1,1 +1,30 @@
-
+<header class="mb-4 text-center">
+  <h1 class="text-2xl text-gray-600">Sign Up</h1>
+  <p class="mt-4 text-gray-500">Create your account for free</p>
+</header>
+<main>
+  <div class="h-full w-96">
+    <form class="flex flex-col gap-6">
+      <div>
+        <label for="name" class="text-gray-700">Name <span class="text-xs text-red-500">*</span></label>
+        <input id="name" placeholder="Name" class="input" type="text">
+      </div>
+      <div>
+        <label for="githubUsername" class="text-gray-700">Github Username</label>
+        <input id="githubUsername" placeholder="Github Username" class="input" type="email">
+      </div>
+      <div>
+        <label for="email" class="text-gray-700">Email <span class="text-xs text-red-500">*</span></label>
+        <input id="email" placeholder="Email" class="input" type="text">
+      </div>
+      <div>
+        <label for="password" class="text-gray-700">Password <span class="text-xs text-red-500">*</span></label>
+        <input id="password" placeholder="Password" class="input" type="password">
+      </div>
+    </form>
+  </div>
+</main>
+<footer class="flex justify-end gap-x-3 mt-6">
+  <button class="btn bg-indigo-500 hover:bg-indigo-600 focus:ring-indigo-600">Confirm</button>
+  <button class="btn-transparent" [mat-dialog-close]>Cancel</button>
+</footer>
